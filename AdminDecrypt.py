@@ -5,8 +5,8 @@ from Crypto.Cipher import AES
 import base64
 
 # ===== Config =====
-SECRET_KEY = "MySecretKey"   # simpan rahsia (jangan share dengan user)
-DEV_PASSWORD = "Admin123"    # password untuk buka generator
+SECRET_KEY = "MySecretKey"   # keep it private (don't share it with user)
+DEV_PASSWORD = "Admin123"    # password to open the generator
 
 # ===== Functions =====
 def pad(text):
